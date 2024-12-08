@@ -1,0 +1,385 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #E63946;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .apply-btn {
+    background: #6A0572;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero {
+    /* background: linear-gradient(135deg, #6A0572, #9B59B6); */
+    background-image: url("back.jpg");
+    color: #fff;
+    width: 1150pxpx;
+    background-size: cover;
+    height: 550px;
+    padding: 3rem 1rem;
+    border-radius: 10px;
+    
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .browse-btn {
+    background: #fff;
+    color: #6A0572;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .companies {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .companies h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .companies .logos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .companies img {
+    height: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .header ul {
+      flex-direction: column;
+    }
+    
+    .main-content {
+      padding: 1rem;
+    }
+    
+    .companies .logos {
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+  }
+  /*section two  */
+  /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding: 2rem;
+  }
+  
+  .bootcamp-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bootcamp-section h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .bootcamp-section p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 2rem;
+  }
+  
+  .features li {
+    font-size: 1rem;
+    color: #6A0572;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(25% - 1rem);
+    min-width: 220px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin: 1rem;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    margin: 0 1rem 1rem;
+    color: #555;
+  }
+  
+  .card-btn {
+    display: inline-block;
+    margin: 0 1rem 1rem;
+    padding: 0.5rem 1rem;
+    background: #6A0572;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .card-btn:hover {
+    background: #9B59B6;
+  }
+  
+  .cta {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  
+  .cta a {
+    color: #6A0572;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .features {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .cards {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  }
+  /*section three  */
+  /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding: 2rem;
+  }
+  
+  .financing-section {
+    display: flex;
+    flex-wrap: wrap;
+    background: #f7f8fc;
+    border-radius: 10px;
+    padding: 1.5rem;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .financing-content {
+    flex: 1;
+  }
+  
+  .news-badge {
+    display: inline-block;
+    background: #6a0572;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .financing-content h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .financing-content p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #6a0572;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background: #9b59b6;
+  }
+  
+  .financing-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .ranking-section {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ranking-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .ranking-section p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+  }
+  
+  .rankings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stars {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .stars p {
+    margin-top: 0.5rem;
+    color: #555;
+  }
+  
+  .badges {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .badges img {
+    height: 80px;
+    width: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .financing-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .financing-content, .financing-image {
+      flex: none;
+    }
+  
+    .rankings {
+      text-align: center;
+    }
+  
+    .badges img {
+      height: 60px;
+    }
+  }
+  /* section four */
+/* General reset */
